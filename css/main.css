@@ -1,0 +1,218 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+
+.temp{
+    color: yellow;
+    font-size: 55px;
+    opacity: 0.4;
+/*    margin-top: -20px;*/
+}
+
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+.temp{
+    color: yellow;
+    font-size: 80px;
+    opacity: 0.4;
+/*    margin-top: -20px;*/
+}
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+.temp{
+    color: yellow;
+    font-size: 80px;
+    opacity: 0.4;
+/*    margin-top: -20px;*/
+}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+.temp{
+    color: yellow;
+    font-size: 90px;
+    opacity: 0.4;
+/*    margin-top: -20px;*/
+}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+.temp{
+    color: yellow;
+    font-size: 150px;
+    opacity: 0.4;
+/*    margin-top: -20px;*/
+}
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: url(../images/5.jpg)repeat 0px 0px;
+    background-color: #4c4553;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+    background-size: cover;
+}
+h1,p,h2,h3,hr{
+    padding: 0px;
+    margin: 0px;
+}
+.fw{
+       font-weight: 200; 
+}
+.day{
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.date {
+    font-size: 1.4em;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.8em;
+}
+.text-center{
+    text-align: center;
+/*    font-weight: 200; */
+}
+.text-white{
+    color: white;
+}
+
+.main_row {
+    width: 25%;
+    margin: 2em auto;
+    background: rgba(0, 0, 0, 0.34);
+    background-size: cover; 
+    padding: 2em;
+} 
+
+.main_row h2 {
+    font-size: 8em;
+    font-weight: 900;
+    color: rgba(255, 215, 1, 0.59); 
+}
+.main_row h2 span {
+    font-weight: 100;
+    font-size: 0.5em;
+    vertical-align: text-top;
+}
+.main_row h2 span span{
+    font-weight: 100;
+    font-size: 0.5em;
+/*    vertical-align: text-top;*/
+}
+.main_row h4{
+    letter-spacing: 3px;
+    margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;
+        font-size: 2em;
+
+}
+hr{
+    margin-top: -2px;
+    margin-bottom: 10px;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.fl{
+    float: left;
+    padding-right: 100px;
+}
+.fr{
+    float: right;
+}
+.inline{
+    display: flex;
+}
+
+
+  .container {
+    min-width: 992px !important;
+  }
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+.hero {
+  background-size: cover;
+  padding: 70px 0;
+  min-height: 300px;
+    margin-bottom: 0px;}
+
+.find-location {
+  position: relative;
+  margin-bottom: 0px;
+}
+  .find-location input[type="text"] {
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+      opacity: 0.8;
+    color: white;
+    border: 0px;
+    font-size: 15px;
+      font-family: cursive;
+
+}
+  .find-location input[type="submit"] {
+    position: absolute;
+    background-color:   white;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    font-size: 14px;
+    padding: 0 40px;    
+    border: 0px;
+
+}
+
