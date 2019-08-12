@@ -25,7 +25,6 @@
     if(isset($_POST['search'])){
         
          $query=$_POST['location'];
-        //this  api is for joba an dhas to changed asap.
         $url = 'api.openweathermap.org/data/2.5/weather?q='.$query.'&appid=26d8fbc12d93348b6e75fa2ab3ce67d0&units=metric';
         $cur = curl_init($url);
         curl_setopt($cur, CURLOPT_SSL_VERIFYPEER, false);
